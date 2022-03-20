@@ -1,1 +1,2 @@
 # Genetic-Knapsack
+This project contains the design of the Knapsack Algorithm using Multithreading in C. The program runs a Parallel Genetic Algorithm that solves Knapsack Problem. The program is parallelized using PThreads, it has the same solution as a sequential program and it is scaling with the number of threads used. The Genetic Algorithm contains the following steps: Selection, Crossover, Mutation and Final Generation. In order to have a valid scaling result I used a Parallel Merge-Sorting Algorithm for sorting best individuals in each generation.
